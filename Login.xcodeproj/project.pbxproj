@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF4A1ED716D49D5F00BEA0D3 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4A1ED616D49D5F00BEA0D3 /* RegisterViewController.m */; };
 		FFF3518B16D4629C001E55D3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFF3518A16D4629C001E55D3 /* UIKit.framework */; };
 		FFF3518D16D4629C001E55D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFF3518C16D4629C001E55D3 /* Foundation.framework */; };
 		FFF3518F16D4629C001E55D3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFF3518E16D4629C001E55D3 /* CoreGraphics.framework */; };
@@ -22,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FF4A1ED516D49D5F00BEA0D3 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		FF4A1ED616D49D5F00BEA0D3 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
 		FFF3518616D4629C001E55D3 /* Login.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Login.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFF3518A16D4629C001E55D3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FFF3518C16D4629C001E55D3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -87,6 +90,8 @@
 			children = (
 				FFF3519916D4629C001E55D3 /* AppDelegate.h */,
 				FFF3519A16D4629C001E55D3 /* AppDelegate.m */,
+				FF4A1ED516D49D5F00BEA0D3 /* RegisterViewController.h */,
+				FF4A1ED616D49D5F00BEA0D3 /* RegisterViewController.m */,
 				FFF351A216D4629C001E55D3 /* MainStoryboard_iPhone.storyboard */,
 				FFF351A516D4629C001E55D3 /* MainStoryboard_iPad.storyboard */,
 				FFF351A816D4629C001E55D3 /* ViewController.h */,
@@ -180,6 +185,7 @@
 				FFF3519716D4629C001E55D3 /* main.m in Sources */,
 				FFF3519B16D4629C001E55D3 /* AppDelegate.m in Sources */,
 				FFF351AA16D4629C001E55D3 /* ViewController.m in Sources */,
+				FF4A1ED716D49D5F00BEA0D3 /* RegisterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +276,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Login/Login-Prefix.pch";
 				INFOPLIST_FILE = "Login/Login-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -281,7 +289,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Login/Login-Prefix.pch";
 				INFOPLIST_FILE = "Login/Login-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -305,6 +315,7 @@
 				FFF351AF16D4629C001E55D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
